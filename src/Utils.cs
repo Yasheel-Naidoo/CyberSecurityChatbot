@@ -4,7 +4,7 @@
  */
 using System;
 using System.Threading;
-
+//Added thinking animation
 namespace Chatbot
 {
     public static class Utils

@@ -1,0 +1,15 @@
+# 1. Initialize the repository
+git init
+
+# 2. Add all files
+git add .
+
+# 3. Create your first commit
+git commit -m "Initial commit: ShieldBot structure and assets"
+
+# 4. Link to your GitHub (Create a NEW empty repo on GitHub first, then copy the link)
+git remote add origin https://github.com/Yasheel-Naidoo/Cyber_Security_Chatbot.git
+
+# 5. Push the files
+git branch -M main
+git push -u origin main

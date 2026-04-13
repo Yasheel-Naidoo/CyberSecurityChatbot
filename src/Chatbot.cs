@@ -1,4 +1,5 @@
-﻿/*
+﻿// ShieldBot Version 1.0 - Optimized Knowledge Base
+/*
  * AUTHOR: Yasheel
  * DESCRIPTION: The core logic for ShieldBot.
  */

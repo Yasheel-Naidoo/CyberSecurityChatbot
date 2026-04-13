@@ -1,4 +1,5 @@
 🛡️ ShieldBot: Cybersecurity Awareness Assistant
+
 ShieldBot is a professional C# console-based educational tool designed to combat the rise of digital threats in South Africa. It provides an interactive, conversational experience to teach citizens about essential online safety topics like Phishing, Password Security, and Multi-Factor Authentication (MFA).
 
 🚀 Key Features

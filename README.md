@@ -45,9 +45,10 @@ Windows OS (required for System.Media.SoundPlayer compatibility).
 Installation & Setup
 Clone the repository:
 
-Bash
 git clone https://github.com/Yasheel-Naidoo/CyberSecurityChatbot.git
+
 cd CyberSecurityChatbot
+
 Open the project in Visual Studio.
 
 Asset Configuration: In the Solution Explorer, select the files in the Assets folder and set Copy to Output Directory to "Copy if newer".

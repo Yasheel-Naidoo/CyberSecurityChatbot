@@ -74,7 +74,7 @@ namespace Chatbot
             Utils.TypeLine("[ShieldBot]: Protocol initialized. Firewall Active.", ConsoleColor.DarkGray);
 
             // Your specific requirement: Keep [Bot] only for the name request
-            Console.Write("\n[Bot]: Hi! I am ShieldBot. I'd love to know your name: ");
+            Console.Write("\n[Bot]: Hi! I am ShieldBot, Im your digital guardian. I'd love to know your name: ");
             string? input = Console.ReadLine();
             UserName = string.IsNullOrWhiteSpace(input) ? "Citizen" : input;
 

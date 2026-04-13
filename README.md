@@ -56,7 +56,7 @@ CyberSecurityChatbot/
 ## ⚙️ Prerequisites & Installation
 
 ### **Prerequisites**
-* **.NET 6.0 SDK** or later.
+* **.NET 9.0 SDK** or later.
 * **Windows OS** (Required for `System.Media.SoundPlayer` compatibility).
 
 ### **Installation**

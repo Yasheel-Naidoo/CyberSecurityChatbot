@@ -12,11 +12,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
+
     - name: Restore dependencies
+      # We tell GitHub to look inside the 'src' folder for the project
       run: dotnet restore
+      working-directory: ./src
+
     - name: Build
       run: dotnet build --no-restore
+      working-directory: ./src

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+vQAjTyAGxU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\naido\\OneDrive\\Desktop\\CyberSecurityChatbot\\src\\Chatbot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\naido\\.nuget\\packages\\system.speech\\10.0.5\\system.speech.10.0.5.nupkg.sha512",
+    "C:\\Users\\naido\\.nuget\\packages\\system.windows.extensions\\10.0.5\\system.windows.extensions.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

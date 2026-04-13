@@ -1,5 +1,3 @@
-To make your **README.md** look high-end for your submission, I've fixed the formatting of the folder structure and streamlined the installation steps. I also ensured the **Prerequisites** and **Usage** sections are included so the lecturer knows exactly how to interact with **ShieldBot**.
-
 ---
 
 # 🛡️ ShieldBot: Cybersecurity Awareness Assistant

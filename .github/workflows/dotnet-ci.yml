@@ -1,15 +1,28 @@
-# 1. Initialize the repository
-git init
+name: .NET Core CI
 
-# 2. Add all files
-git add .
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
-# 3. Create your first commit
-git commit -m "Initial commit: ShieldBot structure and assets"
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-# 4. Link to your GitHub (Create a NEW empty repo on GitHub first, then copy the link)
-git remote add origin https://github.com/Yasheel-Naidoo/Cyber_Security_Chatbot.git
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
 
-# 5. Push the files
-git branch -M main
-git push -u origin main
+    - name: Restore dependencies
+      # We tell GitHub to look inside the 'src' folder for the project
+      run: dotnet restore
+      working-directory: ./src
+
+    - name: Build
+      run: dotnet build --no-restore
+      working-directory: ./src
